@@ -10,6 +10,7 @@ import {
   serializePrimitiveParam,
 } from '@hey-api/client-core';
 
+import { Headers } from 'node-fetch';
 import type { Client, ClientOptions, Config, RequestOptions } from './types';
 
 interface PathSerializer {
